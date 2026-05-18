@@ -1,0 +1,60 @@
+a {
+    color: rgb(221, 153, 8);
+    font-size: 30px;
+    margin-right: 20px;
+    background-color: #CDDF8D;
+}
+a:hover {
+    color:#FCCB00;
+    background-color: black;
+}
+a:visited {
+    color: #E44423;
+}
+button {
+    background-color:black;
+    color:#1769B6;
+}
+button:hover {
+    color: #5C9ED9;
+}
+form input:focus {
+    background-color: rgb(68, 68, 67);
+}
+form label:focus {
+    background-color: rgb(68, 68, 67);
+}
+form textarea:focus {
+    background-color: rgb(68, 68, 67);
+}
+body {
+    margin-right: 64px;
+    margin-left: 64px;
+    border: 1px solid black
+}
+h1 {
+    color: black;
+    font-size: 60px;
+}
+h2 {
+    color:black;
+    font-size: 20px;
+}
+section {
+    border: 12px;
+}
+p {
+    font-size: 14px;
+}
+img {
+    border: 2px solid black;
+    margin-right: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    size: 50% 50%;
+    background-color: #1769B6;
+}
+hr {
+    color: black;
+    width: 100%
+}
