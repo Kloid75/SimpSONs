@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styling.css">
     <script src="forum.js" defer></script>
     <head>
-        <title>SimpSONs</title>
+        <title>Forum</title>
     </head>
     <body>
         <header>
@@ -21,6 +21,20 @@
             <a href="Hahmot.html">Characters</a>
             <a href="forum.html">Forum</a>
         </nav>
-        <aside>
-            <p></p>
-        </aside>
+        <main>
+            <button command="show-modal" commandfor="text">New Message</button>
+            <dialog id="text">
+                <button commandfor="text" command="close">Cancel</button>
+                <form>
+                <input placeholder="Name" type="text" id="name">
+                <br>
+                <input placeholder="Title" type="text" id="title">
+                <br>
+                <input placeholder="Main text" type="text" id="maintext">
+                <button onclick="add(event)">Send</button>
+                </form>
+            </dialog>
+            <table>
+                <tbody id="tekstit"></tbody>
+            </table>
+        </main>

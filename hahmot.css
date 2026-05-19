@@ -5,9 +5,8 @@ body {
     grid-template-areas:
     'y y y'
     'n n n'
-    'a a a'
     'm m m';
-grid-template-rows: 12em 4em 8em auto;
+grid-template-rows: 12em 4em auto;
 grid-template-columns: auto auto auto;
 }
 header {
@@ -46,5 +45,5 @@ main {
     justify-content: center;
 }
 img {
-    width: 10em;
+    width: auto;
 }
